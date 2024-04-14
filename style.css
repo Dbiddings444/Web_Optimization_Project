@@ -523,20 +523,37 @@ footer p{
 .form-group label{
     font-weight: 600;
 }
-.form-group input{
-    width: 25%;
-    height: 20px;
-    border-radius: 5px;
-}
-.form-group textarea{
-    margin-top:10px;
-    width: 25%;
-    border-radius: 5px;
-}
-#disappear{
-    display: none;
-}
 
+.hp_quote{
+    color: black;
+    line-height: 22px;
+}
+.hp_quote2  {
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    margin-top: 10px;
+}
+#hero-text{
+    display: flex;
+}
+#sub-message{
+    display:flex;
+    text-align: left;
+}
+#button-edit{
+    width: 37%;
+    border-radius: 0;
+    border-color: black;
+    border-width: 2px;
+    overflow: visible;
+}
+#first_row
+{
+    margin-bottom: 10px;
+}
+.contact-info a{
+text-decoration: underline;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
